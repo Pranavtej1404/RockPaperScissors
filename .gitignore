@@ -16,7 +16,74 @@ expo-env.d.ts
 *.p8
 *.p12
 *.key
+*.mobileprovision# ===========================
+# DEPENDENCIES
+# ===========================
+node_modules/
+
+# ===========================
+# EXPO / METRO
+# ===========================
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Metro
+.metro-health-check*
+
+# ===========================
+# ENV FILES
+# ===========================
+.env
+.env*.local
+
+# ===========================
+# REACT NATIVE NATIVE BUILDS
+# ===========================
+/ios
+/android
+
+# Kotlin artifacts
+.kotlin/
+
+# Build artifacts
+*.orig.*
+*.tsbuildinfo
+
+# ===========================
+# DEBUG LOG FILES
+# ===========================
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ===========================
+# MAC
+# ===========================
+.DS_Store
+
+# ===========================
+# CREDENTIALS / SECRETS
+# ===========================
+*.pem
+*.p8
+*.p12
+*.key
+*.jks
 *.mobileprovision
+
+# ===========================
+# ASSET MANAGEMENT
+# ===========================
+# DO NOT ignore model files (important for TFJS)
+# assets/model/*.bin   <-- DO NOT ADD THIS!
+# assets/model/model.json <-- DO NOT ADD THIS!
+
+# If you use any auto-generated sample folder
+app-example
+
 
 # Metro
 .metro-health-check*
